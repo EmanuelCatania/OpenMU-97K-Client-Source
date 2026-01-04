@@ -1,0 +1,28 @@
+# Visual Studio / MSVC
+.vs/
+[Bb]in/
+[Oo]bj/
+x64/
+x86/
+Win32/
+Debug/
+Release/
+ipch/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Build artifacts
+*.pdb
+*.ilk
+*.obj
+*.idb
+*.log
+*.tlog
+*.lastbuildstate
