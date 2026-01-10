@@ -1,0 +1,7 @@
+#pragma once
+
+void InitResolution();
+
+void ResolutionSwitch();
+
+void ResolutionSwitchFont();
