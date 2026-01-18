@@ -27,3 +27,7 @@ ipch/
 *.tlog
 *.lastbuildstate
 oldbckup.rar
+
+# --- Allow OpenMU client sources ---
+!Client 0.97 - OpenMu/
+!Client 0.97 - OpenMu/**
