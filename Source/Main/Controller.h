@@ -12,6 +12,8 @@ public:
 
 	static SHORT WINAPI GetAsyncKeyStateHook(int key);
 
+	static void CheckKeyboardKeys();
+
 private:
 
 	HHOOK MouseHook;

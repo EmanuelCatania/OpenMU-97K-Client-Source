@@ -93,13 +93,35 @@
     <ClInclude Include="CCRC32.H" />
     <ClInclude Include="Console.h" />
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="CWideScreen.h" />
+    <ClInclude Include="Defines.h" />
+    <ClInclude Include="Enums.h" />
+    <ClInclude Include="EventTimer.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="GuildLogo.h" />
+    <ClInclude Include="HealthBar.h" />
+    <ClInclude Include="Interface.h" />
+    <ClInclude Include="Language.h" />
+    <ClInclude Include="LoadModels.h" />
+    <ClInclude Include="MapManager.h" />
+    <ClInclude Include="MathLib.h" />
+    <ClInclude Include="MiniMap.h" />
+    <ClInclude Include="MoveList.h" />
     <ClInclude Include="Offset.h" />
+    <ClInclude Include="OptionsMenu.h" />
+    <ClInclude Include="OpenglUtil.h" />
     <ClInclude Include="Patchs.h" />
     <ClInclude Include="Protect.h" />
+    <ClInclude Include="ProtocolDefines.h" />
+    <ClInclude Include="PrintPlayer.h" />
     <ClInclude Include="Resolution.h" />
+    <ClInclude Include="ServerList.h" />
+    <ClInclude Include="Sound.h" />
     <ClInclude Include="stdafx.h" />
+    <ClInclude Include="Structs.h" />
     <ClInclude Include="TrayMode.h" />
     <ClInclude Include="Util.h" />
+    <ClInclude Include="WeaponView.h" />
     <ClInclude Include="Window.h" />
   </ItemGroup>
   <ItemGroup>
@@ -107,16 +129,34 @@
     <ClCompile Include="CCRC32.Cpp" />
     <ClCompile Include="Console.cpp" />
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CWideScreen.cpp" />
+    <ClCompile Include="EventTimer.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="GuildLogo.cpp" />
+    <ClCompile Include="HealthBar.cpp" />
+    <ClCompile Include="Interface.cpp" />
+    <ClCompile Include="Language.cpp" />
+    <ClCompile Include="LoadModels.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MapManager.cpp" />
+    <ClCompile Include="MathLib.cpp" />
+    <ClCompile Include="MiniMap.cpp" />
+    <ClCompile Include="MoveList.cpp" />
+    <ClCompile Include="OptionsMenu.cpp" />
+    <ClCompile Include="OpenglUtil.cpp" />
     <ClCompile Include="Patchs.cpp" />
+    <ClCompile Include="PrintPlayer.cpp" />
     <ClCompile Include="Protect.cpp" />
     <ClCompile Include="Resolution.cpp" />
+    <ClCompile Include="ServerList.cpp" />
+    <ClCompile Include="Sound.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
     </ClCompile>
     <ClCompile Include="TrayMode.cpp" />
     <ClCompile Include="Util.cpp" />
+    <ClCompile Include="WeaponView.cpp" />
     <ClCompile Include="Window.cpp" />
   </ItemGroup>
   <ItemGroup>

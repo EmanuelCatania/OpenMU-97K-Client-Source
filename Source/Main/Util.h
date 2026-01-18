@@ -22,7 +22,17 @@ void PacketArgumentEncrypt(char* out_buff, char* in_buff, int size);
 
 char* ConvertModuleFileName(char* name);
 
+SHORT WINAPI GetAsyncKeyStateCall(int key);
+
 bool FileExists(char* name);
+
+int GetTextWidth(char* buff);
+
+int GetTextHeight(char* buff);
+
+int CenterTextPosX(char* buff, int PosX);
+
+int CenterTextPosY(const char* buff, int PosY);
 
 int GetTextPosX(char* buff, int PosX);
 
@@ -31,3 +41,7 @@ int GetTextPosY(char* buff, int PosY);
 float ImgCenterScreenPosX(float Size);
 
 float ImgCenterScreenPosY(float Size);
+
+bool IsWorkZone(int X, int Y, int Width, int Height);
+
+void ConvertGold(double dGold, char* szText, int iDecimals = 0);
