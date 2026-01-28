@@ -15,6 +15,24 @@ namespace
 	{
 		return GetPrivateProfileIntA("Interface", key, defaultValue, ".\\Config.ini") != 0;
 	}
+
+	void EnsureWizardRingModelLoaded()
+	{
+		static bool loaded = false;
+		if (loaded)
+		{
+			return;
+		}
+
+		loaded = true;
+
+		char modelDir[] = "Data\\Item\\";
+		char modelName[] = "MagicRing";
+		char textureDir[] = "Item\\";
+
+		AccessModel(MODEL_HELPER + 20, modelDir, modelName, 0);
+		OpenTexture(MODEL_HELPER + 20, textureDir, GL_NEAREST, true);
+	}
 }
 
 void Interface::Init()
@@ -36,6 +54,7 @@ void Interface::Init()
 void Interface::LoadImagesHook()
 {
 	((void(__cdecl*)())0x0050EB80)(); // OpenImages
+	EnsureWizardRingModelLoaded();
 	if (IsInterfaceEnabled("LoadWDecorOld", 1))
 	{
 		const char* decorFile = IsInterfaceEnabled("UseWDecorOldOZT", 1)
